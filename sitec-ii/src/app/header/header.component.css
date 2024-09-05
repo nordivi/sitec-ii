@@ -1,0 +1,88 @@
+:root{
+  --primary-color: #186B8C;
+  --secondary-color: #4f8b2e;
+  --background-color: #F2E7DC;
+  --black: #000000;
+  --project-font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #F2E7DC
+}
+
+#header-div {
+  background-color: #F2E7DC;
+  height: 6rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#main-logo{
+  width: 6rem;
+  margin-left: 2rem
+}
+
+#sitec-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+}
+
+#sitec-header{
+  font-size: 44px;
+  color: #F2E7DC;
+  margin-top: -0.2rem;
+  font-weight: 900;
+}
+
+#sitec-tag-header{
+  color: #F2E7DC;
+  font-size: 20px;
+  margin-top: -3rem;
+}
+
+#buttons-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.button-header{
+  height: 1.3rem;
+  background-color: #F2E7DC;
+  width: 5rem;
+  color: black;
+  margin-right: 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: 1.6px solid black
+}
+
+#sobre-nos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+#search-div{
+  width: 13rem;
+  background-color: #F2E7DC;
+  height: 1rem;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: end;
+  padding: 0.2rem;
+  border-radius: 2rem;
+}
+
