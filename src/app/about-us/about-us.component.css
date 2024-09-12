@@ -5,7 +5,7 @@
 }
 
 .tab-title{
-  color: var(--secondary-color);
+  color: #4f8b2e;
   font-weight: 800;
   font-size: 40px;
   text-align: center;
@@ -49,7 +49,7 @@
 }
 
 .texts {
-  color: var(--black);
+  color: black;
   font-weight: 300;
   font-size: 20px;
   text-align: justify;
@@ -79,7 +79,7 @@
 
 #tutorial-metas{
   width: 20rem;
-  background-color: var(--primary-color);
+  background-color: #186B8C;
   height: 10rem;
   border-radius: 4rem;
   display: flex;
@@ -99,7 +99,7 @@
 
 #tutorial-objetivos{
   width: 29rem;
-  background-color: var(--primary-color);
+  background-color: #186B8C;
   height: 10rem;
   border-radius: 4rem;
   align-self: center;

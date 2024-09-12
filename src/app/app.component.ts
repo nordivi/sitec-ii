@@ -5,11 +5,16 @@ import { NavBarComponent } from "./nav-bar/nav-bar.component";
 import { MainContentComponent } from "./main-content/main-content.component";
 import { ExplanatoryContentComponent } from "./explanatory-content/explanatory-content.component";
 import { AboutUsComponent } from "./about-us/about-us.component";
+import { LabelsComponent } from "./labels/labels.component";
+import { SchedulerComponent } from "./scheduler/scheduler.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, NavBarComponent, MainContentComponent, ExplanatoryContentComponent, AboutUsComponent],
+  imports: [RouterOutlet, HeaderComponent,
+    NavBarComponent, MainContentComponent,
+    ExplanatoryContentComponent, AboutUsComponent,
+    LabelsComponent, SchedulerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
