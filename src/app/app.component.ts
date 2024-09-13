@@ -7,6 +7,8 @@ import { ExplanatoryContentComponent } from "./explanatory-content/explanatory-c
 import { AboutUsComponent } from "./about-us/about-us.component";
 import { LabelsComponent } from "./labels/labels.component";
 import { SchedulerComponent } from "./scheduler/scheduler.component";
+import { ContactComponent } from "./contact/contact.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -14,7 +16,7 @@ import { SchedulerComponent } from "./scheduler/scheduler.component";
   imports: [RouterOutlet, HeaderComponent,
     NavBarComponent, MainContentComponent,
     ExplanatoryContentComponent, AboutUsComponent,
-    LabelsComponent, SchedulerComponent],
+    LabelsComponent, SchedulerComponent, ContactComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -85,6 +85,13 @@
   margin-top: 2rem;
 }
 
+.logo-empresas{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 6rem;
+  border: 2px solid black;
+}
+
 #contratar-div{
   display: flex;
   flex-direction: row;
@@ -99,6 +106,31 @@
   font-size: 22px;
   font-weight: bold;
   margin-left: 22rem;
+}
+
+.selo-contratar{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  align-self: center;
+}
+
+.empresa-borda{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+
+.tab-title{
+  color: #4f8b2e;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: -1.5rem;
 }
 
 .contrate-cal-txt{

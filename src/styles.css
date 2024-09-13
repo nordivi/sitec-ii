@@ -12,3 +12,7 @@ a{
   text-decoration: none;
   color: #F2E7DC
 }
+
+input{
+  outline: none;
+}
