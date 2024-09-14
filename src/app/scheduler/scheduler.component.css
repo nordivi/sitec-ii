@@ -42,18 +42,7 @@
   color: white
 }
 
-#botao-agendar{
-  height: 1.9rem;
-  width: 12rem;
-  border: none;
-  border-radius: 6rem;
-  background-color: #4f8b2e;
-  color: white;
-  font-weight: 700;
-  margin-top: 1rem;
-  align-self: end;
-  margin-right: 12rem;
-}
+
 
 #botao-consultoria{
   height: 1.9rem;
@@ -100,13 +89,6 @@
   align-items: center;
 }
 
-.contrate-txt{
-  align-self: start;
-  color: black;
-  font-size: 22px;
-  font-weight: bold;
-  margin-left: 22rem;
-}
 
 .selo-contratar{
   width: 3rem;
@@ -121,6 +103,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  width: 100%;
+}
+
+
+#empresas-sitec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -141,55 +131,6 @@
   margin-left: 8rem;
 }
 
-#div-horario{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  padding: 4rem;
-}
-
-.horario{
-  border: none;
-  border-radius: 3rem;
-  background-color: white;
-  padding: 0.2rem;
-  margin: 0.4rem;
-  width: 4rem;
-  text-align: center;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-
-.clicked {
-  background-color: #4f8b2e;
-  color:white
-}
-
-.semana{
-  padding: 0.2rem;
-  margin: 0;
-  text-align: center;
-  width: 4rem;
-  font-weight: bold;
-  color: white;
-}
-
-#div-calendario{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-#empresas-sitec{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-}
 
 .div-empresas{
   width: 16rem;

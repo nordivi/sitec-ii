@@ -42,6 +42,16 @@
   align-self: center;
 }
 
+.circle-tutorial{
+  border-radius: 50%;
+  background-color:  #F2E7DC;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  display: flex;
+
+}
+
 .item1 {
   background-image: url('../../assets/carrousel1.jpg');
 }
@@ -60,11 +70,13 @@
 }
 
 #tutorial{
-  width: 14rem;
+  width: 16rem;
   background-color: #186B8C;
   height: 20rem;
   border-radius: 4rem;
+  padding: 3rem;
   align-self: center;
+  align-content: space-evenly;
   border: 2px solid black
 }
 
